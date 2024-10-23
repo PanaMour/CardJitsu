@@ -222,13 +222,13 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1589648676}
+        m_TargetAssemblyTypeName: Launcher, Assembly-CSharp
+        m_MethodName: SetPlayerName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1279,6 +1279,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1589648675}
+  - component: {fileID: 1589648676}
   m_Layer: 0
   m_Name: Launcher
   m_TagString: Untagged
@@ -1301,6 +1302,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1589648676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589648674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cae4648c197b144bb589ac6fdafe7ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlPanel: {fileID: 1473938082}
+  progressLabel: {fileID: 462857139}
+  connectButton: {fileID: 961363784}
+  inputField: {fileID: 121453070}
 --- !u!1 &2045602833
 GameObject:
   m_ObjectHideFlags: 0
