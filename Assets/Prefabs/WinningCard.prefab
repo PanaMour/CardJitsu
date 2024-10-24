@@ -74,8 +74,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 3.255968, y: 2.235554}
   m_AnchorMax: {x: 3.37701, y: 2.477313}
-  m_AnchoredPosition: {x: 346.8097, y: -25}
-  m_SizeDelta: {x: 50, y: -971.801}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4070488072027855647
 CanvasRenderer:
@@ -127,10 +127,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0bf7224a02b304419cc3a2dad723f1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  number: {fileID: 0}
-  iconDisplay: {fileID: 0}
-  icons: []
-  stats: {fileID: 0}
+  number: {fileID: 3276723140005829074}
+  iconDisplay: {fileID: 7582237236081740077}
+  icons:
+  - {fileID: 21300000, guid: 655913562da55b244a0bfce8164a2b42, type: 3}
+  - {fileID: 21300000, guid: 91e1a10669da949459a42d0655551082, type: 3}
+  - {fileID: 21300000, guid: 8c4fca13694975248b25b4d819f4d797, type: 3}
+  stats: {fileID: 650865566139305964}
   cardFront: {fileID: 0}
   cardBack: {fileID: 0}
   cardOverlay: {fileID: 0}
@@ -241,10 +244,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7763360843877279485}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: -0.5325351, y: 1.504339}
+  m_AnchorMax: {x: -0.1968351, y: 1.82249}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5394430916819275579
 CanvasRenderer:
@@ -276,8 +279,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 10
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 56e611605d7c80e4fa0ce428c22a345f, type: 2}
+  m_sharedMaterial: {fileID: -3789960039970033488, guid: 56e611605d7c80e4fa0ce428c22a345f, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -301,7 +304,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.75
+  m_fontSize: 19.5
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -408,7 +411,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 8c4fca13694975248b25b4d819f4d797, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

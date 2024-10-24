@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using UnityEngine.SceneManagement;
-using UnityEngine.WSA;
 
 public class GameManager : MonoBehaviourPunCallbacks
 {
