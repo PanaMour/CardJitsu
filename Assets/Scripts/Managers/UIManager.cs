@@ -139,7 +139,7 @@ public class UIManager : MonoBehaviour
     public void DisplayWinningCard(Card card, int playerID, int length)
     {
         Transform canvas = GameObject.Find("Canvas").transform;
-        int xOffset = playerID == 0 ? 0 : 3; // Determine which side the cards should show up on.
+        int xOffset = playerID == 0 ? 0 : 3; // cardfront or cardback
         float yOffset = -20.0f;
         int pos = (int)card.ElementType;
 
